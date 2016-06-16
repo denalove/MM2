@@ -1,5 +1,6 @@
 # Various Node ignoramuses.
 
+
 logs
 *.log
 npm-debug.log*
@@ -53,7 +54,7 @@ Temporary Items
 
 # Various Magic Mirror ignoramuses and anti-ignoramuses.
 
-# Don't ignore the node_helper nore module.
+# Don't ignore the node_helper node module.
 !/modules/node_helper
 !/modules/node_helper/**
 

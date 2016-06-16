@@ -24,7 +24,7 @@ Module.register("currentweather",{
 		useBeaufort: true,
 		lang: config.language,
 
-		initialLoadDelay: 0, // 0 seconds delay
+		initialLoadDelay: 1000, // 0 seconds delay
 		retryDelay: 2500,
 
 		apiVersion: "2.5",
