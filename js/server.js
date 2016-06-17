@@ -10,6 +10,8 @@ var app = require("express")();
 var server = require("http").Server(app);
 var io = require("socket.io")(server);
 var path = require("path");
+var server_port = process.env.YOUR_PORT || process.env.PORT || 8080;
+var server_host = process.env.YOUR_HOST || '0.0.0.0';
 
 var Server = function(config, callback) {
 	console.log("Starting server op port " + config.port + " ... ");
