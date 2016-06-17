@@ -40,15 +40,16 @@
     "time-grunt": "latest"
   },
   "dependencies": {
+    "cool-ascii-faces": "1.3.4",
     "express": "latest",
     "feedme": "latest",
     "iconv-lite": "latest",
     "moment": "latest",
     "request": "latest",
+    "rrule": "latest",
     "snyk": "latest",
     "socket.io": "latest",
     "valid-url": "latest",
-    "walk": "latest",
-    "rrule": "latest"
+    "walk": "latest"
   }
 }
