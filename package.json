@@ -29,9 +29,11 @@
   "homepage": "https://github.com/MichMich/MagicMirror#readme",
   "devDependencies": {
     "electron-prebuilt": "latest",
-    "grunt": "latest",
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
     "grunt-eslint": "latest",
     "grunt-postcss": "latest",
+    "load-grunt-tasks": "^3.5.0",
     "postcss-reporter": "latest",
     "stylelint": "latest",
     "stylelint-config-standard": "latest",
