@@ -64,7 +64,7 @@ var config = {
         //Set of modules which should be shown for every user
         forAllClass: "for_all"
     	}
-		},*/
+		},
 		{
     module: 'mm-music-player',
     position: 'bottom_left',
@@ -72,7 +72,7 @@ var config = {
         startingVolume: 20,
         fadeDuriation: 2000
     	}
-		},
+		},*/
 		{
 			module: 'currentweather',
 			position: 'top_right',
