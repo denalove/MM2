@@ -7,7 +7,7 @@
 
 var express = require("express");
 var app = require("express")();
-var server = require("http").Server(app);
+var server = require("https").Server(app);
 var io = require("socket.io")(server);
 var path = require("path");
 var server_port = process.env.YOUR_PORT || process.env.PORT || 8080;
